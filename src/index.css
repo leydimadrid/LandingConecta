@@ -1,0 +1,95 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+html {
+  height: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: white;
+}
+
+.inicio {
+  background-color: rgba(125, 121, 217, 1);
+}
+
+.textoBienvenidos {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.botonPortafolio {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: rgba(245, 194, 11, 1);
+  font-size: 20px;
+}
+.botonPortafolio:hover {
+  background-color: rgb(255, 174, 0);
+  font-size: 20px;
+}
+
+.underline {
+  text-decoration-color: rgba(125, 121, 217, 1);
+}
+
+.saludoHola {
+  color: rgba(125, 121, 217, 1);
+}
+
+.habilidades {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(126, 121, 217, 0.164) 70%
+  );
+}
+
+.seccionPortafolio {
+  height: auto;
+}
+
+.tituloServicios {
+  color: rgba(125, 121, 217, 1);
+}
+
+.estudios {
+  background-color: rgba(125, 121, 217, 1);
+}
+
+.experiencia {
+  height: auto;
+  background-color: rgba(125, 121, 217, 1);
+}
+
+.Cultivos {
+  width: 30%;
+}
+
+.cajaTrabajosDesarrollo {
+  height: auto;
+  width: 931px;
+}
+
+.cajaImagenPagWeb {
+  height: auto;
+}
+
+.botonVistayGitHub {
+  background-color: rgb(103, 97, 224);
+}
+.botonVistayGitHub:hover {
+  background-color: rgb(95, 89, 209);
+}
+
+.contacto {
+  background-color: rgba(125, 121, 217, 1);
+}
+
+.footer {
+  background-color: rgba(125, 121, 217, 1);
+}
