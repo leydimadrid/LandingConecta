@@ -1,4 +1,3 @@
-import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
 import iconoWhatsapp from "../assets/iconoWhatsapp.png";
 import iconoBehance from "../assets/iconoBehance.png";
 

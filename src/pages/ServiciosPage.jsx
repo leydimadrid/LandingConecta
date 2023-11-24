@@ -1,75 +1,34 @@
-import animacion from "../assets/animacion.png";
-import disenoDigital from "../assets/disenoDigital.png";
-import disenoUIUX from "../assets/disenoUIUX.png";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javaScript from "../assets/javaScript.png";
-import react from "../assets/react.png";
-import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
-import { TituloServicios } from "../components/ComponentesReutilizables/TituloServicios";
-import PlantillaServicios from "../components/ComponentesReutilizables/PlantillaServicios";
+import CardServicios from "../components/ComponentesReutilizables/CardServicios";
+import { Servicios } from "../database/Servicios";
 
 export const ServiciosPage = () => {
   return (
-    <section className="servicios">
-      <PlantillaServicios />
-      <TituloPaginas titulo="Servicios" />
-      <TituloServicios titulo="Diseño gráfico" />
-      <div className="flex flex-cols-3 mx-4 items-center mb-14 pt-7">
-        <div className="mx-auto">
-          <div className="md:flex items-center text-center">
-            <img className="mx-auto" src={animacion} />
-            <span className="font-bold text-xl md:text-2xl ml-3">
-              Animación 2D
-            </span>
-          </div>
-        </div>
-        <div className="mx-auto">
-          <div className="md:flex items-center text-center">
-            <img className="mx-auto" src={disenoDigital} />
-            <span className="font-bold text-xl md:text-2xl ml-3">
-              Diseño digital
-            </span>
-          </div>
-        </div>
-        <div className="mx-auto">
-          <div className="md:flex items-center text-center">
-            <img className="mx-auto" src={disenoUIUX} />
-            <span className="font-bold text-xl md:text-2xl ml-3">
-              Diseño UI/UX
-            </span>
-          </div>
-        </div>
+    <section className="servicios md:h-screen h-auto grid grid-row justify-center place-items-center content-center px-4 py-4">
+      <div>
+        <h1 className="text-black text-2xl md:text-3xl font-bold text-center tracking-tight mb-10">
+          Servicios
+        </h1>
+        <p className="md:max-w-5xl max-w-md font-normal mx-4 mt-2 text-justify text-black text-xl md:text-2xl">
+          Ofrezco servicios de Diseño UX/UI y Desarrollo web y Diseño para Redes
+          Sociales.
+        </p>
+        <p className="md:max-w-5xl max-w-md font-normal mx-4 text-justify text-black text-xl md:text-2xl mb-12">
+          Mi objetivo es impulsar la visibilidad y el crecimiento en el entorno
+          digital, trabajando estrechamente con el cliente para cumplir sus
+          objetivos y necesidades.
+        </p>
       </div>
-      <TituloServicios titulo="Desarrollo web" />
-      <div className="flex flex-cols-4 mx-4 items-center pb-7">
-        <div className="mx-auto">
-          <div className="md:flex items-center text-center">
-            {" "}
-            <img className="mx-auto" src={html} />{" "}
-            <span className="font-bold text-xl md:text-2xl ml-3">HTML</span>
-          </div>
-        </div>
-        <div className="mx-auto">
-          <div className="md:flex items-center text-center">
-            <img className="mx-auto" src={css} />
-            <span className="font-bold text-xl md:text-2xl ml-3">CSS</span>
-          </div>
-        </div>
-        <div className="mx-auto">
-          <div className="md:flex items-center  text-center">
-            <img className="mx-auto" src={javaScript} />
-            <span className="font-bold text-xl md:text-2xl ml-3">
-              JavaScript
-            </span>
-          </div>
-        </div>
-        <div className="mx-auto">
-          <div className="md:flex items-center text-center">
-            <img className="mx-auto" src={react} />
-            <span className="font-bold text-xl md:text-2xl ml-3">React</span>
-          </div>
-        </div>
+      <div className="flex md:flex-row flex-col gap-28 ">
+        {Servicios.map((servicio) => (
+          <CardServicios
+            key={servicio.id}
+            imagen={servicio.imagen}
+            titulo1={servicio.titulo1}
+            titulo2={servicio.titulo2}
+            descripcion={servicio.descripcion}
+            urlboton={servicio.urlboton}
+          />
+        ))}
       </div>
     </section>
   );

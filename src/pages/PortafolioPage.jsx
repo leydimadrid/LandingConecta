@@ -1,7 +1,6 @@
 import { PlantillaTrabajosVistaPrevia } from "../components/ComponentesReutilizables/PlantillaTrabajosVistaPrevia";
 import { PlantillaTrabajosWeb } from "../components/ComponentesReutilizables/PlantillaTrabajosWeb";
 import { TituloServicios } from "../components/ComponentesReutilizables/TituloServicios";
-import { TituloPaginas } from "../components/ComponentesReutilizables/TituloPaginas";
 import { ProyectosUIUX } from "../database/ProyectosUIUX";
 import { proyectosDesarrolloWeb } from "../database/proyectosDesarrolloWeb";
 import { ProyectoLanding } from "../database/ProyectoLanding";
@@ -9,8 +8,13 @@ import { PlantillaTrabajosGithub } from "../components/ComponentesReutilizables/
 
 export const PortafolioPage = () => {
   return (
-    <section id="portafolio" className="seccionPortafolio ">
-      <TituloPaginas titulo="Portafolio" />
+    <section
+      id="portafolio"
+      className="seccionPortafolio h-screen bg-slate-400"
+    >
+      <h1 className="text-black text-2xl md:text-3xl font-bold text-center mt-4 tracking-tight">
+        Portafolio
+      </h1>
       <TituloServicios titulo="Diseño UI/UX" />
 
       {ProyectosUIUX.map((proyecto) => (
