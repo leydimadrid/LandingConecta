@@ -8,11 +8,11 @@ export const ServiciosPage = () => {
         <h1 className="text-black text-2xl md:text-3xl font-bold text-center tracking-tight mb-10">
           Servicios
         </h1>
-        <p className="md:max-w-5xl max-w-md font-normal mx-4 mt-2 text-justify text-black text-xl md:text-2xl">
+        <p className="md:max-w-5xl max-w-md font-normal mx-4 mt-2 text-justify text-black text-lg md:text-xl">
           Ofrezco servicios de Diseño UX/UI y Desarrollo web y Diseño para Redes
           Sociales.
         </p>
-        <p className="md:max-w-5xl max-w-md font-normal mx-4 text-justify text-black text-xl md:text-2xl mb-12">
+        <p className="md:max-w-3xl max-w-md font-normal mx-4 text-justify text-black text-lg md:text-xl mb-12">
           Mi objetivo es impulsar la visibilidad y el crecimiento en el entorno
           digital, trabajando estrechamente con el cliente para cumplir sus
           objetivos y necesidades.

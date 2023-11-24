@@ -10,13 +10,13 @@ export const PortafolioPage = () => {
   return (
     <section
       id="portafolio"
-      className="seccionPortafolio h-screen bg-slate-400"
+      className="seccionPortafolio h-screen"
     >
       <h1 className="text-black text-2xl md:text-3xl font-bold text-center mt-4 tracking-tight">
         Portafolio
       </h1>
       <TituloServicios titulo="Diseño UI/UX" />
-
+    <div className="flex flex-col gap-8">
       {ProyectosUIUX.map((proyecto) => (
         <PlantillaTrabajosVistaPrevia
           key={proyecto.id}
@@ -48,6 +48,7 @@ export const PortafolioPage = () => {
           urlgithub={proyecto.urlgithub}
         />
       ))}
+      </div>
     </section>
   );
 };
