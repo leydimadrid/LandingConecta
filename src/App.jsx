@@ -5,6 +5,7 @@ import { ServiciosPage } from "./pages/ServiciosPage";
 import { PortafolioPage } from "./pages/PortafolioPage";
 import { Footer } from "./components/Footer";
 import { ContactamePage } from "./pages/ContactamePage";
+import { Testimonios } from "./pages/Testimonios";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <QuienSoyPage />
       <ServiciosPage />
       <PortafolioPage />
+      <Testimonios />
       <ContactamePage />
       <Footer />
     </div>

@@ -47,7 +47,7 @@ export const NavBar = () => {
             onClick={() => setOpen(!open)}
             className="cursor-pointer text-black hover:underline text-center"
           >
-            <Link activeClass="active" smooth spy to="Testimonios">
+            <Link activeClass="active" smooth spy to="testimonios">
               Testimonios
             </Link>
           </li>

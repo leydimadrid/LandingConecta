@@ -1,15 +1,12 @@
-import iconoGitHub from "../../assets/icono-github.png";
-
 export const PlantillaTrabajosWeb = ({
   titulo,
   descripcion,
   imagen,
   urlvistaprevia,
-  urlgithub,
 }) => {
   return (
     <div className="flex justify-center">
-      <div className="cajaTrabajosDesarrollo bg-gray-300 rounded-xl py-8 px-8 shadow-md mb-5 mx-5">
+      <div className="cajaTrabajosDesarrollo md:w-96 w-80 md:h-auto bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5">
         <div className="cajaImagenPagWeb bg-white rounded-xl">
           <img className="rounded-xl shadow-md" src={imagen} />
         </div>
@@ -22,18 +19,9 @@ export const PlantillaTrabajosWeb = ({
             href={urlvistaprevia}
             target="_blank"
             id="vistaprevia"
-            className="botonVistayGitHub font-bold rounded-full text-white py-1 md:p-4 md:px-4 cursor-pointer shadow-xl items-center flex justify-center focus:outline-none focus:ring focus:ring-violet-300"
+            className="bg-purple-800 block hover:bg-purple-900 font-semibold text-center rounded-lg text-white hover:scale-105 px-8 py-2 mx-auto cursor-pointer shadow-xl text-sm tracking-wide"
           >
             Vista previa
-          </a>
-          <a
-            href={urlgithub}
-            target="_blank"
-            id="github"
-            className="botonVistayGitHub font-bold rounded-full text-white  py-1 md:px-6 cursor-pointer shadow-xl items-center flex justify-center mt-2 md:mt-0 md:ml-8 ml-0 focus:outline-none focus:ring focus:ring-violet-300 "
-          >
-            <img className="md:w-7 w-6 mr-2" src={iconoGitHub} />
-            GitHub
           </a>
         </div>
       </div>

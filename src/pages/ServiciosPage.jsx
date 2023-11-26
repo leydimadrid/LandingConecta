@@ -18,7 +18,7 @@ export const ServiciosPage = () => {
           objetivos y necesidades.
         </p>
       </div>
-      <div className="flex md:flex-row flex-col gap-28 ">
+      <div className="flex md:flex-row flex-col md:gap-28 gap-10">
         {Servicios.map((servicio) => (
           <CardServicios
             key={servicio.id}
