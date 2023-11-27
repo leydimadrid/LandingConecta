@@ -6,7 +6,8 @@ export const Servicios = [
     titulo2: "Desarrollo Web",
     descripcion:
       "Creo sitios web cautivadores y diseñados a medida empleando Figma, HTML, React Js, Tailwind CSS, JavaScript y CSS según las necesidades específicas de cada proyecto garantizando una presencia en línea única y atractiva.",
-    urlboton:
+    alt: "Icono computador",
+      urlboton:
       "https://drive.google.com/file/d/1skdqnEQOMakbrf_0oJd-voIPxv-ZKVuO/view?usp=sharing",
   },
 
@@ -17,7 +18,8 @@ export const Servicios = [
     titulo2: "Redes sociales",
     descripcion:
       "Creación de contenido y diseño de piezas gráficas para redes sociales para impulsar tu marca, aumentar la visibilidad y conectar con tu audiencia.",
-    urlboton:
+      alt: "Icono varita mágica",
+      urlboton:
       "https://drive.google.com/file/d/1EMTQSv2IozAA7ufpseSwidAJ8vcOZI_M/view?usp=sharing",
   },
 ];

@@ -5,7 +5,7 @@ export const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className=" my-4 mr-1">
+      <nav className=" my-4 mr-1" tabIndex={0}>
         <ul
           className={`py-6 px-4 md:p-0 md:grid gap-x-6 gap-y-4 grid-cols-6 md:text-xs sm:text-sm lg:text-xs xl:text-sm 2xl:text-lg text-sm w-full absolute md:static md:pb-0 left-0  md:w-auto md:pl-0 font-medium ${
             open ? "top-20" : "top-[-490px]"
@@ -15,7 +15,7 @@ export const NavBar = () => {
             onClick={() => setOpen(!open)}
             className="cursor-pointer text-black hover:underline text-center"
           >
-            <Link activeClass="active" smooth spy to="inicio">
+            <Link activeClass="active" smooth spy to="inicio" tabIndex={0}>
               Inicio
             </Link>
           </li>
@@ -23,7 +23,7 @@ export const NavBar = () => {
             onClick={() => setOpen(!open)}
             className="cursor-pointer text-black hover:underline text-center"
           >
-            <Link activeClass="active" smooth spy to="quiensoy">
+            <Link activeClass="active" smooth spy to="quiensoy" tabIndex={0}>
               ¿Quién soy?
             </Link>
           </li>
@@ -31,7 +31,7 @@ export const NavBar = () => {
             onClick={() => setOpen(!open)}
             className="cursor-pointer text-black hover:underline text-center"
           >
-            <Link activeClass="active" smooth spy to="servicios">
+            <Link activeClass="active" smooth spy to="servicios" tabIndex={0}>
               Servicios
             </Link>
           </li>
@@ -39,7 +39,7 @@ export const NavBar = () => {
             onClick={() => setOpen(!open)}
             className="cursor-pointer text-black hover:underline text-center"
           >
-            <Link activeClass="active" smooth spy to="portafolio">
+            <Link activeClass="active" smooth spy to="portafolio" tabIndex={0}>
               Portafolio
             </Link>
           </li>
@@ -47,7 +47,7 @@ export const NavBar = () => {
             onClick={() => setOpen(!open)}
             className="cursor-pointer text-black hover:underline text-center"
           >
-            <Link activeClass="active" smooth spy to="testimonios">
+            <Link activeClass="active" smooth spy to="testimonios" tabIndex={0}>
               Testimonios
             </Link>
           </li>
@@ -55,7 +55,7 @@ export const NavBar = () => {
             onClick={() => setOpen(!open)}
             className="cursor-pointer text-black hover:underline text-center"
           >
-            <Link activeClass="active" smooth spy to="contacto">
+            <Link activeClass="active" smooth spy to="contacto" tabIndex={0}>
               Contáctame
             </Link>
           </li>

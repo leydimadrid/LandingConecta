@@ -6,6 +6,7 @@ export const testimonios = [
     imagen:
       "Lissette_ortegon.jpg",
     nombre: "Lissette Ortegón",
-    cargo: "Fundación La Finca de Todos"
+    cargo: "Fundación La Finca de Todos",
+    alt: "Fotografía clienta Lissette Ortegón"
   }
 ];

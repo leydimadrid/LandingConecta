@@ -2,19 +2,26 @@ import { PlantillaRedesSociales } from "../components/ComponentesReutilizables/P
 import { PlantillaTrabajosWeb } from "../components/ComponentesReutilizables/PlantillaTrabajosWeb";
 import { ProyectosUIUX } from "../database/ProyectosUIUX";
 import { proyectosDesarrolloWeb } from "../database/proyectosDesarrolloWeb";
-import { proyectosRedesSociales} from "../database/proyectosRedesSociales";
+import { proyectosRedesSociales } from "../database/proyectosRedesSociales";
 
 export const PortafolioPage = () => {
   return (
-    <section id="portafolio" className="seccionPortafolio h-screen">
-      <h1 className="text-black text-2xl md:text-3xl font-bold text-center mt-4 tracking-tight">
-        Portafolio
-      </h1>
-      <h1 className="tituloServicios text-center text-2xl font-bold mt-8 mb-6">
-        Proyectos Diseño UI/UX
-      </h1>
-      <div className="flex flex-col gap-6 px-4">
-        <div className="flex md:flex-row flex-col justify-center">
+    <section
+      id="portafolio"
+      className="seccionPortafolio h-screen"
+      tabIndex={0}
+    >
+      <div className="flex flex-col md:gap-10 gap-6 px-4">
+        <h1
+          className="text-purple-800 text-2xl md:text-3xl font-semibold text-center md:mt-16 mt-8 tracking-tight"
+          tabIndex={0}
+        >
+          Portafolio
+        </h1>
+        <h1 className="text-black text-center text-2xl font-bold" tabIndex={0}>
+          Proyectos Diseño UI/UX
+        </h1>
+        <div className="flex md:flex-row flex-col justify-center" tabIndex={0}>
           {ProyectosUIUX.map((proyecto) => (
             <PlantillaTrabajosWeb
               key={proyecto.id}
@@ -25,10 +32,10 @@ export const PortafolioPage = () => {
             />
           ))}
         </div>
-        <h1 className="tituloServicios text-center text-2xl font-bold mt-4">
+        <h1 className="text-black text-center text-2xl font-bold" tabIndex={0}>
           Proyectos Desarrollo Web
         </h1>
-        <div className="flex md:flex-row flex-col justify-center">
+        <div className="flex md:flex-row flex-col justify-center" tabIndex={0}>
           {proyectosDesarrolloWeb.map((proyecto) => (
             <PlantillaTrabajosWeb
               key={proyecto.id}
@@ -39,7 +46,7 @@ export const PortafolioPage = () => {
             />
           ))}
         </div>
-        <h1 className="tituloServicios text-center text-2xl font-bold mt-4 mb-6">
+        <h1 className="text-black text-center text-2xl font-bold" tabIndex={0}>
           Proyectos Redes Sociales
         </h1>
         <div className="flex md:flex-row justify-center">
