@@ -7,7 +7,7 @@ export const NavBar = () => {
     <>
       <nav className=" my-4 mr-1" tabIndex={0}>
         <ul
-          className={`py-6 px-4 md:p-0 md:grid gap-x-6 gap-y-4 grid-cols-6 md:text-xs sm:text-sm lg:text-xs xl:text-sm 2xl:text-lg text-sm w-full absolute md:static md:pb-0 left-0  md:w-auto md:pl-0 font-medium ${
+          className={`py-6 px-4 md:p-0 md:grid gap-x-6 gap-y-4 grid-cols-6 md:text-xs sm:text-sm lg:text-xs xl:text-sm 2xl:text-lg text-sm w-full absolute md:static md:pb-0 left-0  md:w-auto md:pl-0 font-medium bg-white ${
             open ? "top-20" : "top-[-490px]"
           }`}
         >
