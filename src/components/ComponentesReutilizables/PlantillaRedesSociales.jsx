@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Modal from "react-modal";
-import imagenGrande from "../../../src/assets/imagen_DetallesTys_grande.jpg";
+import imagenGrande from "../../../src/assets/imagen_DetallesTys_grande.webp";
 
 Modal.setAppElement("#root");
 
