@@ -8,7 +8,7 @@ export const Servicios = [
       "Creo sitios web cautivadores y diseñados a medida empleando Figma, HTML, React Js, Tailwind CSS, JavaScript y CSS según las necesidades específicas de cada proyecto garantizando una presencia en línea única y atractiva.",
     alt: "Icono computador",
       urlboton:
-      "https://drive.google.com/file/d/1skdqnEQOMakbrf_0oJd-voIPxv-ZKVuO/view?usp=sharing",
+      "https://drive.google.com/file/d/1mhc1zvNCvmG8njcsggG_b600yyjEAXFA/view?usp=sharing",
   },
 
   {
@@ -20,6 +20,6 @@ export const Servicios = [
       "Creación de contenido y diseño de piezas gráficas para redes sociales para impulsar tu marca, aumentar la visibilidad y conectar con tu audiencia.",
       alt: "Icono varita mágica",
       urlboton:
-      "https://drive.google.com/file/d/1EMTQSv2IozAA7ufpseSwidAJ8vcOZI_M/view?usp=sharing",
+      "https://drive.google.com/file/d/1fOxusaNu2qt9XTeHHtVNTJqbWBPLNpdT/view?usp=sharing",
   },
 ];
