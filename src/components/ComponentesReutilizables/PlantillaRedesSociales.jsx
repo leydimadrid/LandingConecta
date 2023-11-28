@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Modal from "react-modal";
-import icono from "../../assets/icono-conecta.png";
+import icono from "../../../public/imagen_DetallesTys.webp";
 
 Modal.setAppElement("#root");
 
@@ -47,19 +47,15 @@ export const PlantillaRedesSociales = ({
           >
             Abrir imagen
           </button>
-          <Modal
-            isOpen={modalIsOpen}
-            onRequestClose={handleCloseModal}
-            contentLabel="Imagen más grande"
-          >
-            <button onClick={handleCloseModal}>Cerrar</button>
-            <img src={icono} descripcion="Descripción de la imagen" />
-          </Modal>
-          {/* {mostrarImagen && (
-        <img
-          src={icono}
-          descripcion="Descripción de la imagen"
-        /> */}
+            <Modal
+            className="w-auto h-auto flex justify-center place-items-center mt-56 bg-black"
+              isOpen={modalIsOpen}
+              onRequestClose={handleCloseModal}
+              contentLabel="Imagen más grande"
+            >
+              <button onClick={handleCloseModal}>Cerrar</button>
+              <img src={icono} descripcion="Descripción de la imagen" />
+            </Modal>
         </div>
       </div>
     </div>
