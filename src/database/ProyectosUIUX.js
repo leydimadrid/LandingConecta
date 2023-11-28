@@ -1,7 +1,7 @@
 export const ProyectosUIUX = [
   {
     id: 1,
-    imagen: "mockup-lfdt.jpg",
+    imagen: "mockup-lfdt.webp",
     titulo: "Wireframe y Prototipo Sitio web",
     descripcion:
       "Creación de Wireframe y Prototipo interactivo de sitio web para la Fundación La Finca de Todos",
@@ -12,7 +12,7 @@ export const ProyectosUIUX = [
 
   {
     id: 2,
-    imagen: "mockup-figma.png",
+    imagen: "mockup-figma.webp",
     titulo: "Wireframe y Prototipo Landing Page",
     descripcion:
       "Creación de Wireframe y Prototipo interactivo para mi landing personal, selección de paleta de colores, tipografía y estilos.",
@@ -23,7 +23,7 @@ export const ProyectosUIUX = [
 
   {
     id: 3,
-    imagen: "mockup-cristhian.jpg",
+    imagen: "mockup-cristhian.webp",
     titulo: "Wireframe y Prototipo Landing Page",
     descripcion:
       "Creación de Wireframe y Prototipo interactivo para compañero de estudio, selección de paleta de colores, tipografía y estilos.",

@@ -1,5 +1,5 @@
 import CardTestimonios from "../components/ComponentesReutilizables/CardTestimonios";
-import { testimonios } from "../database/Testimonios";
+import { testimonios } from "../database/testimonios";
 
 export const Testimonios = () => {
   return (

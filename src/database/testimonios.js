@@ -4,7 +4,7 @@ export const testimonios = [
     icono: "estrellas.svg",
     parrafo: "Trabajar con Leydi ha sido una experiencia muy bonita, todas mis ideas se han hecho realidad y mejoradas por su creatividad y capacidad profesional. Es muy puntual, muy responsable y transmite su amor por el diseño en el resultado final.",
     imagen:
-      "Lissette_ortegon.jpg",
+      "Lissette_ortegon.webp",
     nombre: "Lissette Ortegón",
     cargo: "Fundación La Finca de Todos",
     alt: "Fotografía clienta Lissette Ortegón"

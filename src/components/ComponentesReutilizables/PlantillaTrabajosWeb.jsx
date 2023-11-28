@@ -12,7 +12,7 @@ export const PlantillaTrabajosWeb = ({
         tabIndex={0}
       >
         <div className="cajaImagenPagWeb bg-white rounded-xl">
-          <img className="rounded-xl shadow-md" src={imagen} tabIndex={0} alt={alt} />
+          <img className="rounded-xl shadow-md w-auto h-auto" src={imagen} tabIndex={0} alt={alt} />
         </div>
         <p className="mt-4 mb-4 text-black" tabIndex={0}>
           <span className="font-bold text-black">

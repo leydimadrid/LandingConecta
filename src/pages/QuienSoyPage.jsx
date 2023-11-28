@@ -1,4 +1,4 @@
-import fotoLeydi from "../assets/foto-leydi.jpg";
+import fotoLeydi from "../assets/foto-leydi.webp";
 
 export const QuienSoyPage = () => {
   return (
