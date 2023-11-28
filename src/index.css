@@ -185,6 +185,10 @@ html {
   height: auto;
 }
 
+.modal {
+  height: 600px;
+}
+
 .testimonios {
   background: #7e22ce; /* fallback for old browsers */
   background: -webkit-linear-gradient(
