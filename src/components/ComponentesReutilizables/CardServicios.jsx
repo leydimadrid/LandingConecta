@@ -22,7 +22,7 @@ const CardServicios = ({ imagen, titulo1, titulo2, descripcion, urlboton, alt })
               target="_black"
             >
               <button
-                tabIndex={0} className=" bg-purple-800 block hover:bg-purple-900 font-semibold rounded-lg text-white hover:scale-105 px-8 py-2 mx-auto cursor-pointer shadow-xl text-sm tracking-wide
+                id="Verpaquetes" tabIndex={0} className=" bg-purple-800 block hover:bg-purple-900 font-semibold rounded-lg text-white hover:scale-105 px-8 py-2 mx-auto cursor-pointer shadow-xl text-sm tracking-wide
 "
               >
                 Ver paquetes
