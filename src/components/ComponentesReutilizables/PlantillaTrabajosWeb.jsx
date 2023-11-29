@@ -3,21 +3,21 @@ export const PlantillaTrabajosWeb = ({
   descripcion,
   imagen,
   urlvistaprevia,
-  alt
+  alt,
 }) => {
   return (
     <div className="flex justify-center">
-      <div
-        className="cajaTrabajosDesarrollo md:w-96 w-80 md:h-auto bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5"
-      >
+      <div className="cajaTrabajosDesarrollo md:w-96 w-80 md:h-auto bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5">
         <div className="cajaImagenPagWeb bg-white rounded-xl">
-          <img className="rounded-xl shadow-md w-auto h-auto" src={imagen} tabIndex={0} alt={alt} />
+          <img
+            className="rounded-xl shadow-md w-auto h-auto"
+            src={imagen}
+            tabIndex={0}
+            alt="Grafico proyecto"
+          />
         </div>
         <p className="mt-4 mb-4 text-black" tabIndex={0}>
-          <span className="font-bold text-black">
-            {titulo}
-          </span>{" "}
-          <br />
+          <span className="font-bold text-black">{titulo}</span> <br />
           {descripcion}
         </p>
         <div className="md:flex justify-center">

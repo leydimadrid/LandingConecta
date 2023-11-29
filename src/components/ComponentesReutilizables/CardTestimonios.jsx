@@ -6,7 +6,8 @@ const CardTestimonios = ({ icono, parrafo, imagen, nombre, cargo, alt
     <div className="flex justify-center">
       <div className="cajaTrabajosDesarrollo md:w-96 w-80 md:h-auto bg-gray-100 rounded-xl py-8 px-8 shadow-lg mb-5 mx-5">
         <div className="cajaImagenPagWeb flex justify-center">
-          <img className="w-auto h-auto" src={icono} tabIndex={0} alt={alt} />
+          <img className="w-auto h-auto" src={icono} tabIndex={0} alt="imagen testimonio"
+ />
         </div>
         <p className="mt-4 mb-4 text-black text-justify" tabIndex={0}>
           {parrafo}

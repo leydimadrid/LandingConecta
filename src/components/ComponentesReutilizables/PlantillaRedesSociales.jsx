@@ -17,15 +17,13 @@ export const PlantillaRedesSociales = ({ titulo, imagen, alt }) => {
 
   return (
     <div className="flex justify-center">
-      <div
-        className="cajaRedesSociales md:w-96 w-80 bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5"
-      >
+      <div className="cajaRedesSociales md:w-96 w-80 bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5">
         <div className="cajaImagenRedes bg-white rounded-xl">
           <img
             className="rounded-xl shadow-md w-auto h-auto"
             src={imagen}
             tabIndex={0}
-            alt={alt}
+            alt="Grafico proyecto"
           />
         </div>
         <h1 className="mt-4 mb-8 text-black font-bold" tabIndex={0}>
@@ -53,7 +51,7 @@ export const PlantillaRedesSociales = ({ titulo, imagen, alt }) => {
             >
               X
             </button>
-            <img src={imagenGrande} />
+            <img src={imagenGrande} alt="Imagen redes sociales Detalles TyS" />
           </Modal>
         </div>
       </div>

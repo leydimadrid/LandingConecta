@@ -9,7 +9,7 @@ const CardServicios = ({ imagen, titulo1, titulo2, descripcion, urlboton, alt })
                 className="w-16 h-auto md:h-auto md:w-16"
                 src={imagen}
                 tabIndex={0}
-                alt={alt}
+                alt="Grafico proyecto"
 
               />
             <h1 className="font-semibold mt-6 text-xl" tabIndex={0}>{titulo1}</h1>{" "}
