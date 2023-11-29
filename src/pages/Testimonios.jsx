@@ -16,6 +16,7 @@ export const Testimonios = () => {
               parrafo={testimonio.parrafo}
               imagen={testimonio.imagen}
               nombre={testimonio.nombre}
+              alt={testimonio.alt}
               cargo={testimonio.cargo}
             />
           ))}

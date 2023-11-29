@@ -56,6 +56,7 @@ export const PortafolioPage = () => {
               imagen={proyecto.imagen}
               titulo={proyecto.titulo}
               descripcion={proyecto.descripcion}
+              alt={proyecto.alt}
               urlvistaprevia={proyecto.urlvistaprevia}
             />
           ))}
