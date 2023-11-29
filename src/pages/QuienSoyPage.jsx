@@ -2,7 +2,7 @@ import fotoLeydi from "../assets/foto-leydi.webp";
 
 export const QuienSoyPage = () => {
   return (
-    <main className="wave md:bg-cover lg:bg-cover bg-auto bg-no-repeat" tabIndex={0}>
+    <main className="wave md:bg-cover lg:bg-cover bg-auto bg-no-repeat">
       <section
         id="quiensoy"
         className=" md:h-screen h-auto grid grid-col justify-center place-items-center px-4 py-4"

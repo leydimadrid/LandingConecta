@@ -5,7 +5,6 @@ export const ServiciosPage = () => {
   return (
     <section
       className="servicios bg-gray-100 md:h-screen h-auto grid grid-row justify-center place-items-center content-center px-4 py-4"
-      tabIndex={0}
     >
       <div>
         <h1
@@ -18,7 +17,7 @@ export const ServiciosPage = () => {
           className="md:max-w-5xl max-w-md font-normal mx-4 mt-2 text-justify text-black text-lg md:text-xl"
           tabIndex={0}
         >
-          Ofrezco servicios de Diseño UX/UI y Desarrollo web y Diseño para Redes
+          Ofrezco servicios de Diseño UX/UI, Desarrollo web y Diseño para Redes
           Sociales.
         </p>
         <p
@@ -30,7 +29,7 @@ export const ServiciosPage = () => {
           objetivos y necesidades.
         </p>
       </div>
-      <div className="flex md:flex-row flex-col md:gap-28 gap-10" tabIndex={0}>
+      <div className="flex md:flex-row flex-col md:gap-28 gap-10">
         {Servicios.map((servicio) => (
           <CardServicios
             key={servicio.id}

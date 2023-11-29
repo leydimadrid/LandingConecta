@@ -9,7 +9,6 @@ export const PlantillaTrabajosWeb = ({
     <div className="flex justify-center">
       <div
         className="cajaTrabajosDesarrollo md:w-96 w-80 md:h-auto bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5"
-        tabIndex={0}
       >
         <div className="cajaImagenPagWeb bg-white rounded-xl">
           <img className="rounded-xl shadow-md w-auto h-auto" src={imagen} tabIndex={0} alt={alt} />

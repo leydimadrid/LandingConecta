@@ -2,9 +2,9 @@ import React from "react";
 
 const CardServicios = ({ imagen, titulo1, titulo2, descripcion, urlboton, alt }) => {
   return (
-      <div className="flip-card md:w-80 md:h-80 w-80 h-80 bg-black"tabIndex={0}>
+      <div className="flip-card md:w-80 md:h-80 w-80 h-80 bg-black">
         <div className="flip-card-inner">
-          <div className="flip-card-front bg-purple-700 shadow-lg rounded-2xl flex flex-col items-center justify-center border border-gray-300" tabIndex={0}>
+          <div className="flip-card-front bg-purple-700 shadow-lg rounded-2xl flex flex-col items-center justify-center border border-gray-300">
               <img
                 className="w-16 h-auto md:h-auto md:w-16"
                 src={imagen}

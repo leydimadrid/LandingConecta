@@ -19,7 +19,6 @@ export const PlantillaRedesSociales = ({ titulo, imagen, alt }) => {
     <div className="flex justify-center">
       <div
         className="cajaRedesSociales md:w-96 w-80 bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5"
-        tabIndex={0}
       >
         <div className="cajaImagenRedes bg-white rounded-xl">
           <img

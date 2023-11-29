@@ -3,7 +3,7 @@ import iconoInstagram from "../assets/icon-instagram.svg";
 
 export const ContactamePage = () => {
   return (
-    <section id="contacto" className="contacto" tabIndex={0}>
+    <section id="contacto" className="contacto">
       <div className="grid grid-col gap-2 justify-center content-center h-80">
         <div className="mb-7">
           <h1 className="text-2xl md:text-3xl font-semibold text-center text-black mx-auto" tabIndex={0}>

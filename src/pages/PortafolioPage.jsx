@@ -9,7 +9,6 @@ export const PortafolioPage = () => {
     <section
       id="portafolio"
       className="seccionPortafolio h-screen"
-      tabIndex={0}
     >
       <div className="flex flex-col md:gap-10 gap-6 px-4">
         <h1
@@ -21,7 +20,7 @@ export const PortafolioPage = () => {
         <h1 className="text-black text-center text-2xl font-bold" tabIndex={0}>
           Proyectos Diseño UI/UX
         </h1>
-        <div className="flex md:flex-row flex-col justify-center" tabIndex={0}>
+        <div className="flex md:flex-row flex-col justify-center">
           {ProyectosUIUX.map((proyecto) => (
             <PlantillaTrabajosWeb
               key={proyecto.id}
@@ -35,7 +34,7 @@ export const PortafolioPage = () => {
         <h1 className="text-black text-center text-2xl font-bold" tabIndex={0}>
           Proyectos Desarrollo Web
         </h1>
-        <div className="flex md:flex-row flex-col justify-center" tabIndex={0}>
+        <div className="flex md:flex-row flex-col justify-center">
           {proyectosDesarrolloWeb.map((proyecto) => (
             <PlantillaTrabajosWeb
               key={proyecto.id}

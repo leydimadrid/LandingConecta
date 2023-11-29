@@ -3,7 +3,7 @@ import { testimonios } from "../database/testimonios";
 
 export const Testimonios = () => {
   return (
-    <section id="testimonios" className="testimonios h-screen bg-purple-600 grid grid-col justify-center content-center md:gap-10 gap-6" tabIndex={0}>
+    <section id="testimonios" className="testimonios h-screen bg-purple-600 grid grid-col justify-center content-center md:gap-10 gap-6">
       <h1 className= "text-white text-2xl md:text-3xl font-semibold text-center tracking-tight" tabIndex={0}>
         Testimonios
       </h1>

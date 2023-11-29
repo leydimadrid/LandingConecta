@@ -4,7 +4,7 @@ const CardTestimonios = ({ icono, parrafo, imagen, nombre, cargo, alt
 }) => {
   return (
     <div className="flex justify-center">
-      <div className="cajaTrabajosDesarrollo md:w-96 w-80 md:h-auto bg-gray-100 rounded-xl py-8 px-8 shadow-lg mb-5 mx-5" tabIndex={0}>
+      <div className="cajaTrabajosDesarrollo md:w-96 w-80 md:h-auto bg-gray-100 rounded-xl py-8 px-8 shadow-lg mb-5 mx-5">
         <div className="cajaImagenPagWeb flex justify-center">
           <img className="w-auto h-auto" src={icono} tabIndex={0} alt={alt} />
         </div>
