@@ -6,7 +6,7 @@ const CardServicios = ({ imagen, titulo1, titulo2, descripcion, urlboton, alt })
         <div className="flip-card-inner">
           <div className="flip-card-front bg-purple-700 shadow-lg rounded-2xl flex flex-col items-center justify-center border border-gray-300">
               <img
-                className="w-16 h-auto md:h-auto md:w-16"
+                className="w-16 h-16 md:h-16 md:w-16"
                 src={imagen}
                 tabIndex={0}
                 alt="Grafico proyecto"

@@ -8,12 +8,12 @@ export const InicioPage = () => {
         >
           Bienvenido/a a
         </h1>
-        <h1
+        <h2
           className="bienvenida mb-8 text-3xl md:text-6xl leading-tight text-purple-900 font-semibold"
           tabIndex={0}
         >
           Conecta Agencia Digital
-        </h1>
+        </h2>
         <h3
           className=" text-black text-2xl md:text-3xl leading-tight mb-4 font-normal"
           tabIndex={0}

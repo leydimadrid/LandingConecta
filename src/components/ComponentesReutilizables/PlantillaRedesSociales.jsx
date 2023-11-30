@@ -17,10 +17,10 @@ export const PlantillaRedesSociales = ({ titulo, imagen, alt }) => {
 
   return (
     <div className="flex justify-center">
-      <div className="cajaRedesSociales md:w-96 w-80 bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5">
+      <div className="cajaRedesSociales md:w-96 w-80 bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-10 mx-5">
         <div className="cajaImagenRedes bg-white rounded-xl">
           <img
-            className="rounded-xl shadow-md w-auto h-auto"
+            className="rounded-xl shadow-md md:w-80 md:h-80 w-64 h-64"
             src={imagen}
             tabIndex={0}
             alt="Grafico proyecto"
@@ -40,7 +40,7 @@ export const PlantillaRedesSociales = ({ titulo, imagen, alt }) => {
             Abrir imagen
           </button>
           <Modal
-            className="modal md:w-2/4 lg:w-2/5 w-full flex flex-col gap-6 justify-center md:mt-48 mt-60 mx-auto px-4 py-4"
+            className="modal md:w-2/4 lg:w-2/5 w-full flex flex-col gap-6 justify-center mt-48 mx-auto px-4 py-4"
             isOpen={modalIsOpen}
             onRequestClose={handleCloseModal}
             contentLabel="Imagen más grande"
@@ -51,7 +51,7 @@ export const PlantillaRedesSociales = ({ titulo, imagen, alt }) => {
             >
               X
             </button>
-            <img src={imagenGrande} alt="Imagen redes sociales Detalles TyS" />
+            <img className="w-full" src={imagenGrande} alt="Imagen redes sociales Detalles TyS" />
           </Modal>
         </div>
       </div>

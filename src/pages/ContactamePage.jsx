@@ -18,14 +18,14 @@ export const ContactamePage = () => {
             href="https://api.whatsapp.com/send?phone=3026230690&text=%C2%A1Hola!%20Conecta,%20necesito%20%20tus%20servicios%20en"
             target="_blank"
           >
-            <img className="w-14" src={iconoWhatsapp} tabIndex={0} alt="Icono Whatsapp" />
+            <img className="w-14 h-14" src={iconoWhatsapp} tabIndex={0} alt="Icono Whatsapp" />
           </a>
 
           <a
             href="https://www.instagram.com/conecta.agenciadigital/"
             target="_blank"
           >
-            <img className="w-14" src={iconoInstagram} tabIndex={0} alt="Icono Instagram" />
+            <img className="w-14 h-14" src={iconoInstagram} tabIndex={0} alt="Icono Instagram" />
           </a>
         </div>
       </div>

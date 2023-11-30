@@ -10,7 +10,7 @@ export const PlantillaTrabajosWeb = ({
       <div className="cajaTrabajosDesarrollo md:w-96 w-80 md:h-auto bg-gray-200 rounded-xl py-8 px-8 shadow-md mb-5 mx-5">
         <div className="cajaImagenPagWeb bg-white rounded-xl">
           <img
-            className="rounded-xl shadow-md w-auto h-auto"
+            className="rounded-xl shadow-md md:w-80 md:h-40 w-64 h-32"
             src={imagen}
             tabIndex={0}
             alt="Grafico proyecto"

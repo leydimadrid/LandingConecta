@@ -20,7 +20,7 @@ export const PortafolioPage = () => {
         <h1 className="text-black text-center text-2xl font-bold" tabIndex={0}>
           Proyectos Diseño UI/UX
         </h1>
-        <div className="flex md:flex-row flex-col justify-center">
+        <div className="flex md:flex-row lg:flex-col xl:flex-row flex-col justify-center">
           {ProyectosUIUX.map((proyecto) => (
             <PlantillaTrabajosWeb
               key={proyecto.id}
@@ -34,7 +34,7 @@ export const PortafolioPage = () => {
         <h1 className="text-black text-center text-2xl font-bold" tabIndex={0}>
           Proyectos Desarrollo Web
         </h1>
-        <div className="flex md:flex-row flex-col justify-center">
+        <div className="flex md:flex-row lg:flex-col xl:flex-row flex-col justify-center">
           {proyectosDesarrolloWeb.map((proyecto) => (
             <PlantillaTrabajosWeb
               key={proyecto.id}
@@ -48,7 +48,7 @@ export const PortafolioPage = () => {
         <h1 className="text-black text-center text-2xl font-bold" tabIndex={0}>
           Proyectos Redes Sociales
         </h1>
-        <div className="flex md:flex-row justify-center">
+        <div className="flex md:flex-row lg:flex-col xl:flex-row justify-center">
           {proyectosRedesSociales.map((proyecto) => (
             <PlantillaRedesSociales
               key={proyecto.id}

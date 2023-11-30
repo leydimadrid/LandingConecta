@@ -7,12 +7,13 @@ export const NavBar = () => {
     <>
       <nav className="my-4 mr-1" tabIndex={0}>
         <ul
-          className={`py-6 px-4 md:p-0 grid gap-x-6 gap-y-4 grid-cols-6 md:text-xs sm:text-lg lg:text-xs xl:text-sm 2xl:text-lg text-md w-full absolute md:static md:pb-0 left-0  md:w-auto md:pl-0 font-medium bg-white md:shadow-none shadow-lg ${
+          className={`py-6 px-4 md:p-0  gap-x-6 gap-y-4 flex md:flex-row flex-col md:text-xs sm:text-lg lg:text-xs xl:text-sm 2xl:text-lg text-md w-full absolute md:static md:pb-0 left-0  md:w-auto md:pl-0 font-medium bg-white md:shadow-none shadow-lg ${
             open ? "top-20" : "top-[-490px]"
           }`}
         >
           <li className="cursor-pointer text-black md:text-center text-left decoration-purple-800 hover:underline decoration-2 underline-offset-8 md:mb-0 mb-1">
             <Link
+              href="#inicio"
               className="decoration-purple-800 focus:underline decoration-2 underline-offset-8"
               activeClass="active"
               smooth
@@ -26,6 +27,7 @@ export const NavBar = () => {
           </li>
           <li className="cursor-pointer text-black md:text-center text-left decoration-purple-800 hover:underline decoration-2 underline-offset-8 md:mb-0 mb-1">
             <Link
+              href="#quiensoy"
               className="decoration-purple-800 focus:underline decoration-2 underline-offset-8"
               activeClass="active"
               smooth
@@ -39,6 +41,7 @@ export const NavBar = () => {
           </li>
           <li className="cursor-pointer text-black md:text-center text-left decoration-purple-800 hover:underline decoration-2 underline-offset-8 md:mb-0 mb-1">
             <Link
+              href="#servicios"
               className="decoration-purple-800 focus:underline decoration-2 underline-offset-8"
               activeClass="active"
               smooth
@@ -52,6 +55,7 @@ export const NavBar = () => {
           </li>
           <li className="cursor-pointer text-black md:text-center text-left decoration-purple-800 hover:underline decoration-2 underline-offset-8 md:mb-0 mb-1">
             <Link
+              href="#portafolio"
               className="decoration-purple-800 focus:underline decoration-2 underline-offset-8"
               activeClass="active"
               smooth
@@ -65,6 +69,7 @@ export const NavBar = () => {
           </li>
           <li className="cursor-pointer text-black md:text-center text-left decoration-purple-800 hover:underline decoration-2 underline-offset-8 md:mb-0 mb-1">
             <Link
+              href="testimonios"
               className="decoration-purple-800 focus:underline decoration-2 underline-offset-8"
               activeClass="active"
               smooth
@@ -78,6 +83,7 @@ export const NavBar = () => {
           </li>
           <li className="cursor-pointer text-black md:text-center text-left decoration-purple-800 hover:underline decoration-2 underline-offset-8  md:mb-0 mb-1">
             <Link
+              href="contacto"
               className="decoration-purple-800 focus:underline decoration-2 underline-offset-8"
               activeClass="active"
               smooth
